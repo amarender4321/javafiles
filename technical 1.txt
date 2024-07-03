@@ -1,0 +1,700 @@
+whenever chrome is updated that time we need change the in pom.xml webdrivermanager add updated version that go find mavenreposirory 
+ex:    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.4.0</version>
+</dependency>
+
+Reason for job change :Professionals I want to work with cutting-edge technologies, innovative projects, development and upward mobility.
+
+api validation[name or status code or header]
+@Test
+public void getMethod()
+{
+Response res=when()
+.get("URL");
+String name=res.jsonPath().get("json path of the element");
+Assert.assertEqual(name,"xyz");
+Assert.assertEqual(res.getStatusCode(),200);
+Assert.assertEqual(res.getHeader("content type"),"aplication/json");
+}
+
+     verification(verify)                                                 validation
+a)it is documentation part, meeting part, just about         a)checking entire software what is inbuilt,
+  the decision part 
+b) "verify" refers to the process of checking that the
+ software behaves as expected by comparing the actual
+ outcomes of a test with the expected results.
+ It involves validating that various aspects of the 
+application, such as its functionality, performance, 
+and user interface, meet the specified requirements
+ and criteria.        
+                                                          b) what is of the output of the s/w,
+c) Assertions: Assertions are used to verify that
+ the application state or behavior is as expected.        c)how many testcases we have done,
+                                                          d)result like exp result and actul result,
+                                                              we are found as for expected or not
+
+d)Test Scripts: Automated test scripts are written
+ to simulate user interactions and check the outcomes
+
+Examples
+
+1)UI Verification: Checking that a webpage displays the correct title after navigating to it.
+2)Functionality Verification: Ensuring that a login form accepts valid credentials and rejects invalid ones.
+3)Performance Verification: Verifying that a system responds within an acceptable time frame under load conditions.
+4)Database Verification: Confirming that a database table is updated correctly after performing a certain action in the application.
+
+
+*difference between Severity and priority
+
+Severity refers to the impact a defect has on the functionality of the application. It indicates how serious the defect is and the extent to which it affects the system. Severity is usually classified by testers and is often categorized into levels:
+1)Critical (or Blocker)
+2)High (or Major
+3)Medium
+4)Low (or Minor)
+
+Priority refers to the order in which a defect should be fixed. It is determined based on the urgency of the fix and the business needs. Priority is usually set by project managers or stakeholders and can also be categorized into levels
+1)High priority
+2)Medium priority
+3)Low priority
+
+*Positive And Negative Testing
+
+Example: Login Functionality
+Scenario: Verify that a user can log in with valid credentials.
+
+Step 1: Open the login page.
+Step 2: Enter a valid username (e.g., user@example.com).
+Step 3: Enter the correct password for the username.
+Step 4: Click the "Login" button.
+Expected Result: The user should be successfully logged in and redirected to the dashboard or home page.
+This test ensures that the login functionality works correctly when valid credentials are provided.
+
+Negative Test Scenario
+Negative testing is conducted to ensure that the application handles invalid input data and conditions gracefully. It verifies that the system does not crash and provides appropriate error messages when provided with incorrect inputs.
+
+Example: Login Functionality
+Scenario: Verify that a user cannot log in with an invalid password.
+
+Step 1: Open the login page.
+Step 2: Enter a valid username (e.g., user@example.com).
+Step 3: Enter an incorrect password for the username (e.g., wrong password).
+Step 4: Click the "Login" button.
+Expected Result: The user should see an error message indicating that the username or password is incorrect, and the login attempt should be unsuccessful.
+
+1)windows+shift+s =>screenshoot in laptop
+2)when ever testng dependance in not adding pom 
+just on that project select the project right->go on buildpath click ->go on add libraries click->select testing
+
+=>test plan can be change where as test strage can change it static Brs
+
+Test plan
+A)test plan we will be using the base of to implement to the test stratage
+B)it plan is a particular project we will be having the document for all feature activate(src document)
+1)scope,
+a)features to be tested
+b)features need not be tested 
+2)Approach(what kind of scenario should be follow)
+3)Testing methodologies(what kind of testing as to be done in future)
+4)schedule(what is deadline for performers each and every line)
+5)Assume(positive think test love the job)
+6)Risk(here we discuss about the negative thing)
+7)Backup plan/mitigation plan(over come the risk)
+8)Entry criteria(exactly do we need to start our activate)
+9)Exit criteria(what we exactly stop testing
+10Efort estimation(how engineering all needed)
+11)defect tracing
+12)Test stop criteria(when we exactly do we stop testing the s/w
+13)Test automation (how to automate the s/w in feature
+14)Test environment(hardware ,software)
+15)deliverable(test cases, test plan, transability matrix, test execution report, relase note, graphs and matrix)
+16Test execution report(this report test lead will prepare )
+17)Release note(document which contains the list of instructions)
+18)Graphs and Matrices
+
+
+Test stratage
+a)it means all the type of the project
+b)we can say it company stratage it applicable of all projects
+ basesd on the Brs document
+
+
+
+
+Test case desin
+a)understand the requrment
+b)identfy test sscnarios
+c)prioritize test scnarios
+d)create test data
+e)write test case
+f)use templete
+g)cover positive and negetive secnarios and bva
+h)excute test case
+
+
+what is system testing(end to end testing) and integration testing
+what is severitoy ,priority and low seviraity
+how can you get your build your apk.file in your envirolment(devops eng will devloy the build that time we get one mail)
+testcase desin technic
+if you add product how you can validate that because the product not avaliable 
+default size is list is 10 set is 18 spiefied the value Arraylist<String> al= new ArrayList<>(30);
+what is test pan
+
+
+1)In Appium adb cmds and usage
+a)adb devices:To find out list of connected devices
+b)adb usb:to switch to USB mode
+c)adb tcpip:(port no):To start TCp ip Connection.
+d)adb version(device IP adress):To connect devices over wifi
+e)adb version To check ADB version adb 
+f)adb logcat :To display logs of connected devices.
+
+2) appium version:3.0.24
+4)selenium version :4.6.0
+3) Rest asured version :5.2.0
+
+
+1)Selenium picker is called we have click the array mark button in selenium
+2)diff b/n csss selecter and x-path,  //css selector is not support txt funtion,can't go back reverser and excution fast more then xpath,using Xpath:
+a)Traversal:   XPath allows you to navigate both upwards and downwards in the HTML
+b)Flexibility:  XPath provides a wide range of functions and operators that can be used to create complex and dynamic locators. 
+c)Attribute-Based Selection:   You can select elements based on their attributes such as id, name, class, or any custom attribute, making XPath suitable for selecting elements when other methods like CSS selectors or tag names are insufficient.
+d)Text-Based Selection:  XPath enables you to locate elements based on their text content. This is useful when you need to find elements that contain specific text, even if their attributes are not unique.
+e)Handling Dynamic Elements:   When elements on a web page have dynamically generated IDs or names, XPath can be used to locate them reliably by matching part of their attribute values.
+f)Cross-Browser Compatibility:  XPath is supported by all major web browsers, so your test scripts are less likely to break when you switch between different browsers for testing.
+
+3)how to copy data  in selenium ? useing sendkeys or key.senter we pass the data
+4)diff b/n linkedhashset and hashmap and whcih one will be fast excution and why?//peserved means its maintain insertion orederand linkedhashset is a combination of list and here set it will not allowed duplictes values and linkedlist it will maintain insetion order So,if you want both insertion order and 
+store the ser value use linkedhashSet         
+4.1)map is not from collection,it is always only key and values objects,keys not be duplictes,values is duplicates
+
+LinkedHashSet:
+4.2)A LinkedHashSet is an ordered collection that uses a hash table for storage. It guarantees insertion order.
+When you perform operations like adding, removing, or checking for the existence of elements, it is generally faster than a HashMap because it doesn't require key-value pairs.
+However, if you want to perform lookups based on keys (like you would in a map), you'd have to iterate through the LinkedHashSet, which can be slower than a map for this purpose.//excution is slow
+
+HashMap or Linked HashMap (a type of Map):
+4.3)A HashMap uses a hash table for storage and provides fast access to values based on keys.
+A LinkedHashMap is similar but also maintains the insertion order of elements.
+For key-based operations like looking up a value by its key, HashMap is generally faster than a LinkedHashSet because it's designed for this purpose.
+However, if you need to maintain the order of insertion, you might choose a LinkedHashMap, which is slower for key-based operations but guarantees order.//
+excuton is fast
+
+5)in IRCTC find the xpath of allclases list?
+a)using the //p-dropdownitem  xpath
+
+//Handle multiple Window in selenium & close all window one by one
+set<String>allWin=driver.getWinndowHandales();
+for(String win:allWin){
+driver.swichTo().window(win);
+driver.close();
+}
+s
+//Handle multiple Window in selenium & close only parent window
+String pWin=driver.getwindowHandle();
+set<String>allWin=driver.getWinndowHandales();
+for(String win:allWin){
+driver.swichTo().window(win);
+if(win.equals(pWin))
+{
+driver.close();
+}
+}
+
+
+//close only 3rd 2nd window
+
+String pWin=driver.getwindowHandle();
+set<String>allWin=driver.getWinndowHandales();
+ArrayList<String> al=new ArrayList<String>();
+For(String win:allWin){
+driver.swichTo().window(win);
+al.add(win);
+}
+for(int i=0;i<al.size()-1;i++){
+if(al[i]==2 || al[i]==1){
+driver.close();
+}
+}
+
+//Handle multiple Window in selenium & close all child window except parent window
+String pWin=driver.getwindowHandle();
+set<String>allWin=driver.getWinndowHandles();
+For(String win:allWin){
+driver.swichTo().window(win);
+if(win.notEquals(pWin))
+{
+driver.close();
+}
+}
+
+driver.get("https://www.hyrtutorials.com/p/window-handles-practice.html");
+		String pWin = driver.getWindowHandle();
+		System.out.println(pWin+"====>"+driver.getTitle());
+		driver.findElement(By.id("newWindowBtn")).click();
+	Set<String> allWin = driver.getWindowHandles();
+
+           //all windows print
+	for(String windows:allWin) {
+		System.out.println(windows);
+		    (or)
+		//only child window perform====>
+		//if(!windows.equals(pWin)) {
+		//driver.switchTo().window(windows);
+		//System.out.println(windows+"===>"+driver.getTitle());
+		driver.quit();
+
+
+
+
+
+
+ReverseString{
+
+  public  Static void main(String[] args){
+
+String s="Amarender";
+
+ String str =s.charAt[] ;
+
+String reverse="";
+for(int i=0; i<s.length(); i--){
+reverse=reverse+chart[i];
+}
+System.out.print(reverse);
+}
+}
+
+
+// reverse the string
+
+String str="sahastra";
+char[] c=str.toCharArray();
+for(int i=c.length-1;i>=0;i--)
+{
+System.out.print(c[i]);
+}
+}
+}
+
+ArrayList<Object> al=new ArrayList();
+
+al.add("100");
+al.add("200");
+al.add("300");
+al.add("400");
+al.add("500");
+for(int i=0;i<al.size();i++)
+{
+System.out.println(al.get(i));
+}
+
+
+  1) driver.manage().timeouts.implicitwait(Long  Duration.Offseconds(mill,10);
+
+   2) WebDriverDriver wait =new WebDriverDriver(driver 10)
+    wait.untill(expectedConditions("Xpath");
+
+ 
+        Impiciwait                                                   Explictwait
+1)we don't the specify the waiting condition    1)we should specify the waiting condition explicityly
+  explicity
+2)we can handle the sychronization of all the    2)we can  handle the sychronization of any method but only
+findElement and findElements method               one at  a time
+3)after the duration we get nosuchElement       3)after   the duration we get timeoutexception
+Exception
+4)Time duration can be days,hours,minutes,      4)Time    duration will be only seconds
+sec...exc.
+
+
+
+       find Element                                                          find Elements
+
+1)return type of findelements is webelement      1)return type is list of webelements
+2)if the locator are matching with multple       2)it returns all the matching elements
+ elements it will return the first matching 
+ element
+3)if the locator is not matching it will         3)it returns empty list
+  throw no suchelement exception
+4)it is used handle single element               4)it is used to handle multiple elements
+
+
+
+
+       getWindowHandle                                                  getWindowHandles              
+1)get windowHandle will return address of         1)getwindowHandles returns the address of all the 
+                                                   browser
+ current browser where as get windowHandles        2)return type getwindowhandles is set<String>   
+2)return type getWindow is String
+
+
+       String buffer                                             String builder
+1)Synchronized                                             1)non-Synchronized
+2)thread safe                                              2)not thread safe
+3)Relative performance is low  //ex :group excution        3)Relative performance is high  // example: parallel excution
+4)Introduced 1.0v                                          4)Introduced 1.5v          
+
+1)String is unmuttable class in java it means it cant be change
+2)Stringbufer and Stringbuilder both are mutable in java it means changes happens here
+
+
+
+
+
+                1. ScreenShot program
+
+Takescreenshot t=(Takescreenshot)driver;//typecasting
+File src=t.getscreenshotAs(outputType.File);
+File dest =new File("./screenshot/ss.png");
+FileUtil.copyFile(src,dest);
+
+
+              Scrolling Method
+window.scrollingBy(0,document.body.scrollHeight)
+
+window.scrollingBy(document.body.scrollwidth,0)
+
+
+
+              2. post the request with BDD in rest assured tool
+
+ public void createProject()
+	{
+		JavaLibrary jLib = new JavaLibrary();
+		
+		//Step 1: craete pre requisite
+		JSONObject jObj = new JSONObject();
+		jObj.put("createdBy", "Nithesh");
+		jObj.put("projectName", "Xylem "+jLib.getRandomNumber());
+		jObj.put("status", "Completed");
+		jObj.put("teamSize", 12);
+		
+		baseURI ="http://localhost";
+		port = 8084;
+		
+		given()
+		 .body(jObj)
+		 .contentType(ContentType.JSON)
+		
+		.when()  //Step 2: perform action
+		 .post("/addProject")
+		 
+		.then()  //Step 3: Validation
+		 .assertThat()
+		 .statusCode(201)
+		 .contentType(ContentType.JSON)
+		 .log().all();
+
+=> Read => GET() => 200
+
+public void getAllProjects()
+	{
+		baseURI = "http://localhost";
+		port = 8084;
+		
+		when()
+		 .get("/projects")
+		.then()
+		 .log().all();
+	}
+
+
+=> Update => PUT() => 200
+
+public void updateProject()
+	{
+		
+		//Step 1: Create the pre requisites - request Body
+		JSONObject jObj = new JSONObject();
+		jObj.put("createdBy", "Nithesh");
+		jObj.put("projectName", "Xylem11234");
+		jObj.put("status", "Completed");
+		jObj.put("teamSize", 30);
+		
+		baseURI = "http://localhost";
+		port = 8084;
+		
+		given()
+		 .body(jObj)
+		 .contentType(ContentType.JSON)
+
+		.when()
+		 .put("/projects/TY_PROJ_3205")
+		 
+		.then()
+		 .assertThat()
+		 .statusCode(200)
+		 .contentType(ContentType.JSON)
+		 .log().all();
+	}
+
+
+
+=> Delete => DELETE() => 204
+
+public void deleteProject()
+	{
+		baseURI = "http://localhost";
+		port = 8084;
+		
+		when()
+		 .delete("/projects/TY_PROJ_3205")
+		.then()
+		 .assertThat()
+		 .statusCode(204)
+		 .log().all();
+	}
+                                    JVM
+1)method area  ====>store in method area:-class1(static blocks,satic method,static variables),class2(),class3(),etc.
+2)heap area    ====>heap area:- objects are store in heap area-->object1(varaibles,methods) object1,etc.
+    
+          compile           run/excute
+3)java file =====> class file =====> class loader ---> perform on objects 
+
+
+1)heap area :-string constantpool(string litaral values store in stringpool),
+ex:-string s="amarender";
+2)heap area(string objects store in heap area)
+ex:-Test s=new Test("amarender");
+4)String s1 ="amarender";
+5)String s2 ="amarender";
+ s1==s2 both -->both are equal 'true'//s1,s2 both are store in string constanpool so both sore same address,
+when we strore same String address like amarender that it will not allocate new memomery old referance give
+new value
+
+6)String s1 ="amarender";
+7)Test s2=new Test("amarender");
+s1==s2 both are not equal 'false'// s1,s2 both are store in differanc location thats why false
+
+8)equal operater("==") is compare the address
+9)equal method() is compare the value
+10)string is class but is unique behavior because it is like data type but all date types are not class string 
+not premitive data type
+11)Immutable means can't be change string class
+12)string buffer and string builder mutable or alter(changes happens here-->heap area store objects)
+13)stringbuilder is not thread safe.it is non synronized
+a)it allows multple program
+b)it is faster than stringbuffer
+14)string buffer is threadsafe
+15)====>
+a)when ever you running testcase sequence(batch execution)that we can use stringbuilder no problem
+b)when ever you can run multiple testcase paralle that use stringbuffer because it is thread safe and it 
+sycronized 
+
+Dependency added in BDD
+1)cucumber-core
+2)cucumber-java
+3)cucumber-test NG
+4)cucumber-Pico container
+
+a)cucumber-core:- Mapping the feature files with step-definitions 
+b)cucumber-java:- it is used to implement Gherkin keywords
+c)cucumber-pico cocontainer:- In BDD framework Hook class can't we extend into step difinitions.But Here 
+launching the pre-conditional and post-condition is written in Hook class.So,here i cannot extend Hook class.That's
+why add cucumber-pico container dependancy in pom.xml.
+
+5)why Runner class is used?
+A) Runner class is used to for mapping between feature files and step definations by using attributes like 
+features and glue
+-->DryRun:-dryrun is used to generate snippet to implements in the step definations.
+-->After that some thing called as monochrome,It is used to print complete is console in readable format to it
+helps the debug the script easily.
+-->It is done with the help of plugin 'preety'.
+-->And them plugin runner class also used to generate reports like.html,json,etc.Hence we generate json and html
+repot.
+Note:-Runner class is also used for group and Batch execution.
+
+
+This:- This is keyword in java
+1)This keyword can't be used in static context
+2)what is non static context:-where ever use non-static block or method is called non-static context 
+3)This keyword represent class level variables or on non-static context
+                                        
+
+1)What are you facing challenges and how to handle?
+A)i am facing staleElement exception and 
+2)featureas of selenium ?
+A)four
+
+
+
+1)how much time will take if 40 or 50 test cases is there
+1)around one hour
+2)how to invoke screenshot in bdd framework wheater if test case is failed
+A)In BDD under java folder we created uttilty package, inside uttilty package we are creating WebDriverUtility
+class inside that class we are creating that method
+
+WebDriverManager.chromedriver().setup();
+WebDriver driver= new ChromeDriver();
+driver.manage().window().maximize();
+
+Keyword-Driven Framework:
+Concept: In a keyword-driven framework, tests are designed and organized around keywords or action words, which represent a specific action or operation to be performed on the application under test. These keywords are usually defined in a separate repository or spreadsheet.
+
+Advantages:
+Non-technical testers can write and maintain test scripts using keywords.
+Test cases can be easily modified or extended by simply changing or adding keywords.
+Separation of test case logic from automation code promotes reusability.
+
+Disadvantages:
+Setting up and maintaining a comprehensive set of keywords can be time-consuming.
+Limited flexibility for complex test scenarios that might require custom coding.
+
+Data-Driven Framework:
+Concept: In a data-driven framework, test scripts are separated from the test data. Test data is stored in external data sources, such as spreadsheets or databases, and the same test script is executed multiple times with different sets of data.
+
+Advantages:
+Reusability of test scripts with various data inputs.
+Easy maintenance and scalability, as changes are often limited to the data source.
+Testing a wide range of scenarios with minimal script modifications.
+
+Disadvantages:
+Initial setup may require more effort to create data sets and link them to test scripts.
+Complex data-driven scenarios may lead to large data sets that are challenging to manage.
+
+Hybrid Framework:
+Concept: A hybrid framework combines elements of both keyword-driven and data-driven frameworks. It uses keywords to define test actions and allows these actions to be driven by different sets of data.
+
+Advantages:
+Combines the flexibility of keyword-driven testing with the scalability of data-driven testing.
+Well-suited for complex applications and diverse test scenarios.
+Supports a wide range of test cases with different data inputs.
+
+Disadvantages:
+Typically requires more initial effort to set up compared to individual frameworks.
+Maintenance can become complex if not well-organized.
+
+
+
+
+
+
+
+
+
+
+3)how to how to iniliazie browser in base class and how to invoke 
+4)for examle smoke test cases excution happen how to jenkin excution and explain jenkin parameter not browser
+5)what is maven
+6)what is pom and what are adding 
+7)what are the exception come up
+8)how many test scripts return total
+one sprint 
+9)what is pom.xml 
+10)which plugins u added in runner class
+11)what is string 
+12)whatb is encapsultion related to ur frame work
+13)what inharihete relited to ur framework
+14)10 mobiles is their how to sorted one by one
+
+1)which test cases automateable and which test case not automateable
+2)how can raise defect in jira
+3)which type of test methods required in api
+4)boundry value
+5)In selenium which type of exceptions u get and solutions
+6)what is smoke,regration,typecasting
+7)1)3rd window text is availble
+  2)control shift 2nd window
+  3)close 2nd window
+8)how many types of api automation testing availble
+9)in api  which is most important in request
+10)why we are using api testing
+11)write frame work folder secture
+
+1)How to inspect disappear elemnt of xpath in webpage
+A) Step1-->go to dissappear element inspect it 
+Step2--->go to sources
+Step3-->now go to diaaappear element and press f8 button
+step4-->go to [array mark]beside the elements click and find the xpath 
+
+
+
+
+Hybrid Framework
+
+CSS selector xpath
+
+ID>>>> use befor #
+Class>>> use before . (dot)
+use when list>>>>nth-child(1) >>EX #jqxService_Grid th:nth-child(1)
+>>table#conection tr.dropdownmenu th
+>>div.dataTables li#gxpMeterNumber a[data='2']
+
+<div class= "alert alert-danger alert-dismisble">
+
+>>By.xpath("//div[contains(@class,'alert-dismissble']")
+
+String actualWarningMeassage= driver.findElement(By.xpath(("//div[contains(@class,'alert-dismissble']").getText();
+String expectedWarningMessage="Warning:No match for E-mailadddress and/password");
+Assert.assertTrue(actualWarningMessage.contains(expectedWarningMessage),"Warning:No match for E-mailadddress and/password");
+
+public class Demo{
+
+public static void main(String[] args){
+
+Date date = new Date();
+sopln(date.toString());
+o/p=>> wed nov 30 12:23:59 IST 2022
+
+-----------------------------------------
+
+Date date = new Date();
+sopln(date.toString().replace(" ","_"));
+o/p=>> wed_nov_30_12:23:59_IST_2022
+
+------------------------------------------
+
+Date date = new Date();
+sopln(date.toString().replace(" ","_").replace(":", "_");
+o/p=>> wed_nov_30_12_23_59_IST_2022
+
+---------------------------------------------------
+
+public String generatetimeStamp(){
+
+Date date = new Date();
+ Return date.tostring().replace(" ","_").replace(":","_");
+
+}
+
+use method>>
+By.id("input-password")).sendkeys("amarender984"+generateTimeStamp()+"@gmail.com"));
+
+interview
+1)diff b/w test condition and defect densisity
+2)what is defect leakage
+3)diff b/n scenario and test case
+4)how will optimize while writing testcases
+5)writing test what you will do 
+6)how can design test data
+7)what is benefit of automation 
+
+
+*what are the challenges facing and you resolve it in automation
+
+Dynamic User Interface: Automated tests can struggle with dynamic elements on web pages or applications, such as dynamic IDs or changing layouts.
+Resolution: Use robust locators like XPath or CSS selectors that are less likely to change. Implement waits and synchronization techniques to ensure elements are fully loaded before interacting with them.
+
+Test Data Management: Generating and managing test data for automated tests can be complex, especially for large datasets or when dealing with sensitive data.
+Resolution: Utilize data-driven testing frameworks to separate test data from test logic. Use tools or scripts to generate synthetic or anonymized test data. Leverage virtualization or containerization techniques to create isolated test environments with controlled data.
+
+Maintenance Overhead: Automated tests can become brittle and require frequent updates as the application evolves, leading to high maintenance costs.
+Resolution: Follow best practices for test design to create modular, reusable test scripts. Implement Page Object Model (POM) or similar design patterns to encapsulate UI elements and interactions. Regularly review and refactor test code to keep it clean and maintainable.
+
+Cross-Browser and Cross-Platform Testing: Ensuring compatibility across multiple browsers and platforms adds complexity to automated testing.
+Resolution: Utilize cross-browser testing tools that allow you to execute tests across different browsers and platforms simultaneously. Implement browser and platform abstraction layers to abstract away differences in implementations.
+
+Test Environment Setup: Setting up and maintaining test environments that mirror production can be challenging, especially for distributed or cloud-based applications.
+Resolution: Automate environment provisioning and configuration using tools like Docker, Kubernetes, or Infrastructure as Code (IaC) frameworks. Utilize cloud-based testing services that provide on-demand access to various testing environments.
+
+Parallel Execution: Running automated tests in parallel can significantly reduce execution time but requires coordination and management.
+Resolution: Implement parallel execution capabilities in your test automation framework. Utilize cloud-based testing platforms that offer scalable infrastructure for parallel testing. Use distributed testing frameworks that distribute tests across multiple machines or nodes.
+
+Non-Deterministic Tests: Tests that produce different results on different executions due to timing issues or external dependencies can be unreliable.
+Resolution: Implement synchronization mechanisms to ensure test execution is consistent. Minimize reliance on external dependencies by mocking or stubbing them in tests. Implement retry mechanisms for flaky tests to mitigate transient failures.
+
+Continuous Integration and Deployment (CI/CD) Integration: Integrating automated tests into CI/CD pipelines and ensuring timely feedback can be challenging.
+Resolution: Integrate automated tests into your CI/CD workflow using tools like Jenkins, GitLab CI, or Azure DevOps. Implement test execution and reporting plugins/extensions for your CI/CD tool. Set up notifications and alerts for test failures to facilitate quick resolution.
+
+
+
